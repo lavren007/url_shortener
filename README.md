@@ -149,19 +149,19 @@ cleanup.interval.minutes=30
 url-shortener/
 ├── src/
 │   ├── main/java/
-│   │   ├── Main.java                 # Точка входа, CLI интерфейс
-│   │   ├── UrlShortenerService.java  # Основная бизнес-логика
-│   │   ├── ShortUrl.java            # Модель сокращенной ссылки
-│   │   ├── User.java                # Модель пользователя
-│   │   ├── Config.java              # Загрузка конфигурации
+│   │   ├── Main.java                    # Точка входа, CLI интерфейс
+│   │   ├── UrlShortenerService.java     # Основная бизнес-логика
+│   │   ├── ShortUrl.java                # Модель сокращенной ссылки
+│   │   ├── User.java                    # Модель пользователя
+│   │   ├── Config.java                  # Загрузка конфигурации
 │   │   └── exceptions/
 │   │       ├── InvalidUrlException.java
 │   │       ├── UrlNotFoundException.java
 │   │       └── UrlExpiredException.java
-│   └── test/java/                   # Юнит и интеграционные тесты
-├── config.properties                # Конфигурация приложения
-├── pom.xml                         # Maven конфигурация
-└── README.md                       # Документация
+│   ├── test/java/                       # Юнит и интеграционные тесты
+│   └── resources/config.properties      # Конфигурация приложения
+├── pom.xml                              # Maven конфигурация
+└── README.md                            # Документация
 ```
 # 🧪 Тестирование
 
